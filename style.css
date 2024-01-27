@@ -4,7 +4,7 @@ body {
   align-items: center;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: black;
+  background-color: #000;
   color: whitesmoke;
   padding: 0 20px;
 }
@@ -18,21 +18,38 @@ body {
   margin: 20px 0;
 }
 
+p {
+  font-size: xx-large;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0 50px;
+}
+
+li {
+  font-size: x-large;
+}
+
 #discord-link {
   display: flex;
   flex-direction: row;
-  background-color: #222;
+  background-color: #bf3f3f;
   color: whitesmoke;
   width: 33vw;
   min-width: 320px;
   justify-content: space-around;
   align-items: center;
   border-radius: 20px;
-  margin: 20px 0;
+  margin: 20px 0 50px;
 }
 
 #discord-link p {
   font-weight: 800;
+  padding: 0 5px;
 }
 
 #discord-logo {
@@ -54,12 +71,18 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 90vw;
+  align-items: center;
+  width: 30vw;
+  min-width: 320px;
   margin-top: 50px;
+}
+
+footer p {
+  font-size: small;
 }
 
 .footer-logo {
   object-fit: contain;
-  width: 50px;
-  max-width: 30vw;
+  width: 25px;
+  max-width: 10vw;
 }
